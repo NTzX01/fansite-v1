@@ -1,0 +1,22 @@
+body { margin: 0; font-family: 'Noto Sans Thai', sans-serif; background: #f4f8fc; }
+h1, h2 { font-family: 'Mitr', sans-serif; }
+h2 { color: #75aadb; border-bottom: 3px solid gold; }
+
+.nav { position: fixed; top: 0; width: 100%; background: #1b2a3a; text-align: center; padding: .8rem 0; }
+.nav a { color: white; text-decoration: none; margin: 0 1rem; }
+.nav a:hover { color: gold; }
+
+.hero { background: #75aadb; color: white; text-align: center; padding: 6rem 1rem 3rem; }
+.number { display: inline-block; width: 120px; height: 120px; line-height: 120px;
+          border-radius: 50%; background: white; color: #75aadb; font-size: 4rem; }
+#title { font-size: 3rem; margin: 1rem 0 0; }
+
+.main { width: 80%; max-width: 800px; margin: 2rem auto; }
+.stat { display: inline-block; width: 40%; margin: .5rem 2%; padding: 1rem 0;
+        text-align: center; background: white; }
+.stat:hover { background: gold; }
+
+table { width: 100%; border-collapse: collapse; background: white; }
+th { background: #1b2a3a; color: white; }
+th, td { border: 1px solid #ccc; padding: .5rem; }
+.gold { font-weight: bold; color: #b88a00; }
